@@ -1,4 +1,25 @@
 header {
     background-color: #00F;
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    background-color: #000;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+    width: 60px;
+    align-items: center;
 }
