@@ -1,5 +1,7 @@
 footer{
     height: 50px;
+    padding: 0 29px;
+    /*header(20px) + li(9px)*/
     background-color: #F00;
 }
 .ftr_second {

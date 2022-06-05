@@ -1,31 +1,75 @@
 header {
     height: 65px;
+    padding: 0 20px;
     background-color: #00F;
     display: flex;
-    flex-direction: row;
     justify-content: end;
     align-items: center;
-    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    /*position: -webkit-sticky;  Necessário para funcionar no Safari 
     position: sticky;
-    top: 0;
+    top: 0;*/
 }
 .container {
     display: flex;
-    flex-direction: row;
     align-items: center;
     background-color: #000;
 }
 .menu{
-    display: flex;
-    flex-direction: row;
     background-color: #FFF;
-    align-items: center;
 }
-ul{
+ul{ 
     display: flex;
+    align-items: center; 
 }
 li {
-    padding: 10px;
+    margin: 0 9px;
     background-color: #0FF;
-    margin: 10px;
 }
+.gmail a{ 
+    padding: 0 2px;
+    color: #000; 
+}
+.image a{ 
+    padding: 0 2px;
+    color: #000; 
+}
+.point_menu a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 23px;
+    background-color: red;
+    padding: 2px 0;
+}
+.point{ 
+    background-color: #000;
+    margin: 1px; 
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+}
+.perfil,
+.perfil a img{
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+/* <header>
+<div class="container">
+    <div class="menu">
+        <ul>
+            <li class="gmail">
+                <a href="#">Gmail</a>
+            </li>
+            <li class="image">
+                <a href="#">Imagens</a> 
+            </li>
+            <li class="point">
+                <div class="point"></div>
+            </li>
+            <li class="perfil">perfil</li>
+        </ul>
+    </div>
+</div>
+</header> */
