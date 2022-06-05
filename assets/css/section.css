@@ -1,4 +1,8 @@
 section{
     background-color: #0F0;
-    height: 700px;
+    height: calc(100vh - 115px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,6 +1,6 @@
 header {
+    height: 65px;
     background-color: #00F;
-    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -13,13 +13,19 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 40px;
     background-color: #000;
 }
 .menu{
     display: flex;
     flex-direction: row;
     background-color: #FFF;
-    width: 60px;
     align-items: center;
+}
+ul{
+    display: flex;
+}
+li {
+    padding: 10px;
+    background-color: #0FF;
+    margin: 10px;
 }

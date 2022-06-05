@@ -1,4 +1,63 @@
-* {
-    padding: 0;
+/*
+  1. Use um modelo de dimensionamento de caixa mais intuitivo.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove a margem e o padding padrão
+  */
+  * {
     margin: 0;
-}
+    padding: 0;
+  }
+  /*
+    3. Permitir alturas baseadas em porcentagem no aplicativo
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Ajustes tipográficos!
+    4. Adicionar altura de linha acessível
+    5. Melhore a renderização de texto
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Melhorar os padrões de mídia
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remova estilos de tipografia de formulário embutido
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Evite estouros de texto
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Crie um contexto de empilhamento de raízes
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+  a{
+      text-decoration: none;
+  }
+  ul, li{
+      list-style: none;
+  }
+/* 
+CSS reset:
+https://www.joshwcomeau.com/css/custom-css-reset/ 
+*/

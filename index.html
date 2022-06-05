@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" 
-    type="text/css"
-    href="assets/css/style.css"
-    media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
     <link rel="stylesheet" type="text/css" href="assets/css/header.css" media="screen">
     <link rel="stylesheet" type="text/css" href="assets/css/section.css" media="screen">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css" media="screen">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <div class="menu">...</div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">Gmail</a>
+                    </li>
+                    <li>
+                        <a href="#">Imagens</a> 
+                    </li>
+                    <li>point</li>
+                    <li>perfil</li>
+                </ul>
+            </div>
         </div>
     </header>
     <section>
@@ -26,7 +36,8 @@
             </div>
         </article>
         <article class="search_field">
-            <input type="search" id="search" onkeydown="keydownFunction(event, 'enter')" size="50" maxlength="70" placeholder="Pesquise no Google ou escreva um URL">
+            <input type="search" id="search" onkeydown="keydownFunction(event, 'enter')" size="50" maxlength="70"
+                placeholder="Pesquise no Google ou escreva um URL">
         </article>
         <article class="group_button">
             <button>Pesquisa Google</button>
@@ -35,16 +46,21 @@
     </section>
     <footer>
         <div class="ftr_first">
-            <a href="#">Brasil</a>
+            <a class="info" href="#">Brasil</a>
         </div>
-        <div class="ftr_first">
-            <a href="#">Publicidade</a>
-            <a href="#">Negócios</a>
-            <a href="#">Sobre</a>
-            <a href="#">Privacidade</a>
-            <a href="#">Termos</a>
-            <a href="#">Configurações</a>
+        <div class="ftr_second">
+            <div class="info_start">
+                <a class="info" href="#">Publicidade</a>
+                <a class="info" href="#">Negócios</a>
+                <a class="info" href="#">Sobre</a>
+            </div>
+            <div class="info_end">
+                <a class="info" href="#">Privacidade</a>
+                <a class="info" href="#">Termos</a>
+                <a class="info" href="#">Configurações</a>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>

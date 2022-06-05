@@ -1,3 +1,8 @@
 footer{
+    height: 50px;
     background-color: #F00;
+}
+.ftr_second {
+    display: flex;
+    justify-content: space-between;
 }
