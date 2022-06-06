@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home_head">
         <div class="container">
             <div class="menu">
                 <ul>
@@ -25,16 +25,16 @@
                     </li>
                     <li class="point_menu">
                         <a href="">
-                        <div class="point"></div>
-                        <div class="point"></div>
-                        <div class="point"></div>
-                        <div class="point"></div>
-                        <div class="point"></div>
-                        <div class="point"></div>
-                        <div class="point"></div>
-                        <div class="point"></div>
-                        <div class="point"></div>
-                    </a>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                        </a>
                     </li>
                     <li class="perfil">
                         <a href="#">
@@ -45,22 +45,32 @@
             </div>
         </div>
     </header>
-    <section>
+    <section id="home_sec">
         <article class="logo_google">
             <div class="logo">
                 <img src="assets/images/google.png">
             </div>
         </article>
-        <article class="search_field">
-            <input type="search" id="search" onkeydown="keydownFunction(event, 'enter')" size="50" maxlength="70"
-                placeholder="Pesquise no Google ou escreva um URL">
+        <article class="search_area">
+                <div class="search_field">
+                    <input type="search" id="search" onkeydown="keydownFunction(event, 'enter')" size="50"
+                        maxlength="70" placeholder="Pesquise no Google ou escreva um URL">
+                </div>
+                <div class="tec">
+                    <img src="assets/images/teclado-de-computador.png" />
+                    <img src="assets/images/teclado-de-computador-blue.png" />
+                </div>
+                <div class="mic">
+                    <img src="assets/images/microfone.png" />
+                    <img src="assets/images/voz-do-google.png" />
+                </div>
         </article>
         <article class="group_button">
             <button>Pesquisa Google</button>
             <button>Estou com sorte</button>
         </article>
     </section>
-    <footer>
+    <footer id="home_ftr">
         <div class="ftr_first">
             <a class="info" href="#">Brasil</a>
         </div>

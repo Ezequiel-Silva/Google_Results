@@ -3,6 +3,8 @@ footer{
     padding: 0 29px;
     /*header(20px) + li(9px)*/
     background-color: #F00;
+    position: relative;
+    bottom: 0;
 }
 .ftr_second {
     display: flex;

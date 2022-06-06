@@ -1,8 +1,47 @@
+:root{
+    --search_size: 28px;
+}
 section{
     background-color: #0F0;
-    height: calc(100vh - 115px);
+    
+    /* height: 130vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+#home_sec{ height: calc(100vh - 106px); }
+#result_sec{ height: auto; }
+.search_area{
+    background-color: #F0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 0; */
+    border: 1px solid #000;
+    padding: 2px 10px;
+    border-radius: 12px;
+}
+.search_field{ 
+    background-color: #CCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{ 
+    border: 0 none;
+    outline: 0; 
+    width: 28vw;
+    height: var(--search_size);
+}
+.tec img:first-child,
+.mic img:first-child{
+    display: flex;
+    height: var(--search_size);
+}
+.tec img:last-child,
+.mic img:last-child{
+    display: none;
+    height: var(--search_size);
+}
+/* COMMIT da area do section, estrutura */
