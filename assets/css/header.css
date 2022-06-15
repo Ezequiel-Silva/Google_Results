@@ -16,9 +16,7 @@ header {
     background-color: #000;
 }
 .menu{
-    background-color: #FFF;
-}
-ul{ 
+    background-color: #FFF; 
     display: flex;
     align-items: center; 
 }
