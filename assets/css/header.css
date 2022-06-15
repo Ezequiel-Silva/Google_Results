@@ -1,3 +1,4 @@
+:root{ --search_size: 28px; }
 header {
     height: auto;
     padding: 10px 20px;
@@ -5,9 +6,9 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
-    /*position: -webkit-sticky;  Necessário para funcionar no Safari 
+    position: -webkit-sticky;  /*Necessário para funcionar no Safari  */
     position: sticky;
-    top: 0;*/
+    top: 0;
 }
 .container {
     display: flex;
@@ -54,4 +55,7 @@ li {
     border-radius: 50%;
     height: 36px;
     width: 36px;
+}
+.logo_img img{
+    height: var(--search_size);
 }

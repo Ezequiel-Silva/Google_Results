@@ -3,13 +3,14 @@
 }
 section{
     background-color: #0F0;
-    
+    padding: 0 29px;
     /* height: 130vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
+#home_sec{ align-items: center; }
+#result_sec{ align-items: flex-start; }
 #home_sec{ height: calc(100vh - 106px); }
 #result_sec{ height: auto; }
 .search_area{
@@ -34,14 +35,28 @@ section{
     width: 28vw;
     height: var(--search_size);
 }
+.tec img,
+.mic img{ 
+    cursor: pointer; 
+    height: var(--search_size);
+}
 .tec img:first-child,
 .mic img:first-child{
     display: flex;
-    height: var(--search_size);
+}
+.search_area a:hover :first-child{
+    display: none;
+}
+.search_area a:hover :last-child{
+    display: flex;
 }
 .tec img:last-child,
-.mic img:last-child{
-    display: none;
-    height: var(--search_size);
+.mic img:last-child{ display: none; }
+#result_sec article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 640px;
+    padding: 12px 0px;
+    border: 1px solid #000;
 }
-/* COMMIT da area do section, estrutura */
