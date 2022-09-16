@@ -51,10 +51,13 @@
             </div>
         </article>
         <article class="search_area">
-            <div class="search_field">
+            <a id='lupaHome' class="lupa" href="pages/result.html">
+                <img src="assets/images/lupa.jpg">
+            </a>
+            <form class="search_field">
                 <input type="search" id="search" onkeydown="keydownFunction(event, 'enter')" size="50" maxlength="70"
                     placeholder="Pesquise no Google ou escreva um URL">
-            </div>
+            </form>
             <a class="tec" href="#">
                 <img src="assets/images/teclado-de-computador.png" />
                 <img src="assets/images/teclado-de-computador-blue.png" />
@@ -87,8 +90,13 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" defer></script>
 </body>
 
 </html>
 <!-- <a href="https://www.flaticon.com/br/icones-gratis/google" title="google ícones">Google ícones criados por Freepik - Flaticon</a> -->
+
+
+<!-- O atributo DEFER Boolean está definido para indicar a um navegador que o script deve ser executado após a análise do documento, mas antes de disparar DOMContentLoaded. -->
+<!-- Scripts com o atributo de adiamento impedirão que o evento DOMContentLoaded seja disparado até que o script tenha carregado e terminado de avaliar. -->
+<!-- Este atributo não deve ser usado se o atributo src estiver ausente (ou seja, para scripts inline), neste caso não teria efeito. -->
